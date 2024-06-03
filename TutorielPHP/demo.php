@@ -1,6 +1,10 @@
 <?php
-$notes = [10, 20];
-echo $notes[1];
-?>
+$eleve = [
+    'nom' => 'Doe', 
+    'Prenom' => 'Marc', 
+    'notes' => [10, 20, 15],
+];
+echo $eleve['Prenom'];
+?> 
 
 
