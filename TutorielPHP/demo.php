@@ -1,7 +1,6 @@
 <?php
-$note = 10;
-$note2 = 15;
-echo ($note + $note2) /2;
+$notes = [10, 20];
+echo $notes[1];
 ?>
 
 
