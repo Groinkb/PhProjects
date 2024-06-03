@@ -1,6 +1,6 @@
 <?php
 $action = (int)readline('entrez votre action : (1: attaquer, 2: défendre, 3:passer mon tour)');
-
+// le switch c'est pour éviter les répitions d'if 
 switch ($action) {
     case 1:
         echo 'J\'attaque ! ';
@@ -15,7 +15,7 @@ switch ($action) {
         echo 'Commande inconnue';    
 }
 
-
+//First commentary
 
 if ($action ===1){
     echo 'J\'attaque !';
